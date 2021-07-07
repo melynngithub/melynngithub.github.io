@@ -1,22 +1,96 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@melynngithub 
+melynngithub
+/
+melynngithub.github.io
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+1st commit
+1st publish attempt
+ main
+@melynngithub
+melynngithub committed 8 hours ago 
+1 parent 3fce8f4 commit bc1c02116d6dbdf24b8f98e174c6903c5a5f3387
+Showing  with 154 additions and 0 deletions.
+ BIN +1.27 MB banner7.jpg 
+Binary file not shown.
+ 37  index.html 
+@@ -0,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Princess+Sofia&display=swap');
+    </style>
+
+  </head>
+  <body>
+      <div class="header">
+        <h1 class="headingText"> &nbsp; Mrs. Lynn</h1>
+      </div>
+    <div class="topnav">
+        <a href="mm1.html">Mulitmedia 1</a>
+        <a href="ecs.html">Exploring Computer Science</a>
+        <a href="apcsp.html">AP Computer Science Principles</a>
+        <a href="apcsa.html">AP CSA</a>
+        <a href="mm2html.html">Multimedia 2 - HTML/CSS</a>
+        <a href="mm2game.html">Multimedia 2 - Game Design</a> 
+    </div>
+
+    <div class="section group">
+        <div class="col span_1_of_3">
+        This is column 1
+        </div>
+        <div class="col span_1_of_3">
+        This is column 2
+        </div>
+        <div class="col span_1_of_3">
+        This is column 3
+        </div>
+    </div>
+
+
+  </body>
+</html> 
+ 117  style.css 
+@@ -0,0 +1,117 @@
 * {
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 .headingText{
     font-family: 'Princess Sofia', cursive;
-   /* font-size:style="font-size:20vw";*/
+    font-size: 90px;
     color: #ffdd01;
     background-color: rgba(84, 84, 84, 0);
     text-shadow: rgb(0, 0, 0) 3px 2px 3px;
     float: right;
     padding-right: 120px;
-   
+
 }
 
 /*menu start*/
 .topnav {
-  
+
   background-color: #3d5a17;
+  overflow: hidden;
   width:100%;
 }
 .topnav a{
@@ -27,7 +101,7 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   .topnav a:hover {
     background-color: #ffdd01;
     color: #000000;
@@ -37,12 +111,11 @@
     color: #000000;
   }
 
-  
+
   /*menu end*/
 
 .header {
 background-image:url("banner7.jpg");
-background-color: #3d5a17;
 color:#fff;
 padding: 0;
 height: 300px;
@@ -112,6 +185,5 @@ body {
 p {
 color: black;
 }
-
 
 
