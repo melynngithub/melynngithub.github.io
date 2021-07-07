@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 .headingText{
     font-family: 'Princess Sofia', cursive;
-    font-size: 90px;
+   /* font-size:style="font-size:20vw";*/
     color: #ffdd01;
     background-color: rgba(84, 84, 84, 0);
     text-shadow: rgb(0, 0, 0) 3px 2px 3px;
@@ -43,6 +43,7 @@
 
 .header {
 background-image:url("banner7.jpg");
+background-color: #3d5a17;
 color:#fff;
 padding: 0;
 height: 300px;
