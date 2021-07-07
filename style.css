@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+.headingText{
+    font-family: 'Princess Sofia', cursive;
+    font-size: 90px;
+    color: #ffdd01;
+    background-color: rgba(84, 84, 84, 0);
+    text-shadow: rgb(0, 0, 0) 3px 2px 3px;
+    float: right;
+    padding-right: 120px;
+   
+}
+
+/*menu start*/
+.topnav {
+  
+  background-color: #3d5a17;
+  overflow: hidden;
+  width:100%;
+}
+.topnav a{
+    float: left;  
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffdd01;
+    color: #000000;
+  }
+  .topnav a.active {
+    background-color: #ffdd01;
+    color: #000000;
+  }
+
+  
+  /*menu end*/
+
+.header {
+background-image:url("banner7.jpg");
+color:#fff;
+padding: 0;
+height: 300px;
+width: 100%;
+font-family: "Sedgwick Ave", cursive;
+margin-left: 0;
+margin-top: 0;
+}
+
+/*
+http://www.responsivegridsystem.com/
+*/
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+body {
+    background: white;
+    margin:0px;
+    width:100%;
+}
+
+p {
+color: black;
+}
+
+
+
