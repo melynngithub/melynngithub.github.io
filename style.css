@@ -7,19 +7,17 @@ body {
   background: white;
   margin:0px;
   width:100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #1e2c0c;
   
 
 }
 .mainAnnounce {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
 font-weight: bolder;
-text-shadow: #ffdd01;
 color: #1e2c0c;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 .headingText{
     font-family: 'Princess Sofia', cursive;
     font-size: 90px;
