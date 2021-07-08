@@ -56,11 +56,6 @@ color: #1e2c0c;
     background-color: #ffdd01;
     color: #000000;
   }
-  
-
-
-
-
   /*menu end*/
 
 .header {
@@ -127,21 +122,6 @@ http://www.responsivegridsystem.com/
 }
 
 
-body {
-    background: white;
-    margin:0px;
-    width:100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #1e2c0c;
-    
-  
-}
-.mainAnnounce {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bolder;
-  text-shadow: #ffdd01;
-  color: #1e2c0c;
-}
 
 
 
