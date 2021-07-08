@@ -19,6 +19,7 @@
   background-color: #3d5a17;
   overflow: hidden;
   width:100%;
+  
 }
 .topnav a{
     float: left;  
@@ -34,16 +35,21 @@
     background-color: #ffdd01;
     color: #000000;
   }
-  .topnav a.active {
+  .topnav a:active {
     background-color: #ffdd01;
     color: #000000;
   }
+  
+
+
 
 
   /*menu end*/
 
 .header {
 background-image:url("banner7.jpg");
+background-size: cover; 
+background-color: #6a9ccd;
 color:#fff;
 padding: 0;
 height: 300px;
@@ -59,7 +65,7 @@ http://www.responsivegridsystem.com/
 /*  SECTIONS  */
 .section {
 	clear: both;
-	padding: 0px;
+	padding: 5px;
 	margin: 0px;
 }
 
@@ -108,10 +114,18 @@ body {
     background: white;
     margin:0px;
     width:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1e2c0c;
+    
+  
+}
+.mainAnnounce {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  text-shadow: #ffdd01;
+  color: #1e2c0c;
 }
 
-p {
-color: black;
-}
+
 
 
